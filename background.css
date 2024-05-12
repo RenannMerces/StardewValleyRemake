@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evita barras de rolagem */
+  }
+
+  body {
+    background-image: url("src/1547796.png");
+    background-size: cover; /* Cobrir toda a área do body */
+    background-position: center; /* Centralizar a imagem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .botao {
+    margin-top: 15%;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1; /* Garante que o botão fique sobre a imagem */
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .direita {
+    margin-top: 15%;
+    
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-60%, -50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1; /* Garante que o botão fique sobre a imagem */
+
+  }
+
+  .esquerda {
+    margin-top: 15%;
+    
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%, -50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1; /* Garante que o botão fique sobre a imagem */
+
+  }
